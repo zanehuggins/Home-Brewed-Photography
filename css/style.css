@@ -27,8 +27,10 @@ main {
   .subnav a p {
     display: none; }
 
-.photo-column-1 a {
-  margin-bottom: 10px; }
+.photo-column-1, .photo-column-2, .photo-column-3 {
+  padding: 5px; }
+  .photo-column-1 a, .photo-column-2 a, .photo-column-3 a {
+    padding: 5px; }
 
 @media (min-width: 767.98px) {
   .background {
