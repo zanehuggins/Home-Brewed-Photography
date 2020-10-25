@@ -20,11 +20,31 @@ main{
   li{
     float: left;
     list-style: none;
-    width: 14.25%;
     text-align: center;
+
+
+  }
+  a{
+    position: relative;
+    width: 100%;
+    float: left;
+
+  img{
+    position: absolute;
+    width: 40px;
+    height: auto;
+  }
+  p{
+    display: none;
   }
 }
+}
 
+.photo-column-1{
+  a{
+    margin-bottom: 10px;
+  }
+}
 
 
 @media (min-width: 767.98px ){
