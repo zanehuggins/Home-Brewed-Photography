@@ -54,6 +54,12 @@ main {
   opacity: 1;
   transition-delay: .17s; }
 
+.lil:hover .hover {
+  opacity: 1; }
+.lil:hover .hover-2 {
+  opacity: 1;
+  transition-delay: .17s; }
+
 @media (min-width: 767.98px) {
   .background {
     position: fixed; } }
