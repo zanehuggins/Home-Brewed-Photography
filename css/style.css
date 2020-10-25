@@ -15,14 +15,16 @@ main {
 .subnav li {
   float: left;
   list-style: none;
-  text-align: center; }
+  text-align: center;
+  width: 14%; }
 .subnav a {
   position: relative;
-  width: 100%;
-  float: left; }
+  height: 75px;
+  float: left;
+  margin-top: 25px; }
   .subnav a img {
     position: absolute;
-    width: 40px;
+    width: 55px;
     height: auto; }
   .subnav a p {
     display: none; }
@@ -31,6 +33,16 @@ main {
   padding: 5px; }
   .photo-column-1 a, .photo-column-2 a, .photo-column-3 a {
     padding: 5px; }
+
+.container-mixitup .containMix .mix {
+  display: none; }
+
+.hover {
+  opacity: 0;
+  transition: .15s; }
+
+.hover:hover {
+  opacity: 1; }
 
 @media (min-width: 767.98px) {
   .background {
