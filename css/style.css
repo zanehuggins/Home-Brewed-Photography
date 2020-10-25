@@ -16,15 +16,15 @@ main {
   float: left;
   list-style: none;
   text-align: center;
-  width: 14%; }
+  width: 14.25%; }
 .subnav a {
   position: relative;
-  height: 75px;
+  height: 45px;
   float: left;
   margin-top: 25px; }
   .subnav a img {
     position: absolute;
-    width: 55px;
+    width: 45px;
     height: auto; }
   .subnav a p {
     display: none; }
