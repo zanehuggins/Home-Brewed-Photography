@@ -87,6 +87,19 @@ main{
   }
 }
 
+/* SERVICES ------------------------ */
+.services{
+  ul{
+    list-style: none;
+  }
+}
+
+.service-item{
+  border-top: 1px solid grey;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
 
 @media (min-width: 767.98px ){
   .background{
