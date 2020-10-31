@@ -67,7 +67,34 @@ main {
 .service-item {
   border-top: 1px solid grey;
   padding-top: 25px;
-  padding-bottom: 25px; }
+  padding-bottom: 25px;
+  position: relative; }
+
+.service-icon-container {
+  padding-left: 0; }
+
+.service-icon-1 {
+  position: absolute;
+  width: 100%;
+  transition: .15s; }
+
+.service-item:hover .service-icon-2 {
+  opacity: 1; }
+.service-item:hover .service-icon-3 {
+  opacity: 1; }
+
+.service-icon-2 {
+  opacity: 0;
+  width: 100%;
+  transition: .15s;
+  position: absolute; }
+
+.service-icon-3 {
+  opacity: 0;
+  width: 100%;
+  transition: .15s;
+  transition-delay: .15s;
+  position: absolute; }
 
 @media (min-width: 767.98px) {
   .background {
