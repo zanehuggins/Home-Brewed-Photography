@@ -12,6 +12,9 @@
 main {
   background-color: white; }
 
+h1 {
+  margin-top: 25px; }
+
 .subnav {
   height: 100px; }
   .subnav li {
@@ -129,6 +132,15 @@ main {
       nav a img {
         width: 50% !important;
         margin-left: 25% !important;
-        margin-right: 25% !important; } }
+        margin-right: 25% !important; }
+
+  .service-item {
+    border: none;
+    padding: 0;
+    margin-top: 40px;
+    margin-bottom: 40px; }
+
+  .lightgrey {
+    background-color: #f1f1f1; } }
 
 /*# sourceMappingURL=style.css.map */

@@ -16,6 +16,10 @@ main{
   background-color: white;
 }
 
+h1{
+  margin-top: 25px;
+}
+
 .subnav{
   height: 100px;
   li{
@@ -163,8 +167,6 @@ opacity: 1;
 }
 
 
-
-
 @media (min-width: 1200px ){
 
   .container-fluid{
@@ -188,5 +190,16 @@ nav{
   }
 
   }
+
+.service-item{
+  border: none;
+  padding: 0;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.lightgrey{
+  background-color: #f1f1f1;
+}
 
 }
