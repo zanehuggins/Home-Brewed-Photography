@@ -116,7 +116,15 @@ h1 {
   .subnav img {
     left: 0;
     right: 0;
-    margin: auto; } }
+    margin: auto; }
+
+  .lightgrey {
+    background-color: #f1f1f1; }
+
+  .service-item {
+    border: none;
+    margin-top: 40px;
+    margin-bottom: 40px; } }
 @media (min-width: 1200px) {
   .container-fluid {
     padding: 10px !important; }
@@ -132,15 +140,6 @@ h1 {
       nav a img {
         width: 50% !important;
         margin-left: 25% !important;
-        margin-right: 25% !important; }
-
-  .service-item {
-    border: none;
-    padding: 0;
-    margin-top: 40px;
-    margin-bottom: 40px; }
-
-  .lightgrey {
-    background-color: #f1f1f1; } }
+        margin-right: 25% !important; } }
 
 /*# sourceMappingURL=style.css.map */

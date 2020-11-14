@@ -163,6 +163,15 @@ opacity: 1;
   }
   }
 
+  .lightgrey{
+    background-color: #f1f1f1;
+  }
+
+  .service-item{
+    border: none;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
 
 }
 
@@ -191,15 +200,5 @@ nav{
 
   }
 
-.service-item{
-  border: none;
-  padding: 0;
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
-
-.lightgrey{
-  background-color: #f1f1f1;
-}
 
 }
