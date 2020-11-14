@@ -15,6 +15,20 @@ main {
 h1 {
   margin-top: 25px; }
 
+nav {
+  margin-top: 25px !important;
+  margin-bottom: 25px; }
+  nav button {
+    margin: 10px; }
+
+.navbar-nav {
+  background-color: white; }
+  .navbar-nav a {
+    color: grey !important; }
+  .navbar-nav .active {
+    color: black !important;
+    font-weight: bold; }
+
 .subnav {
   height: 100px; }
   .subnav li {
@@ -124,6 +138,14 @@ form button {
   list-style: none; }
 
 @media (min-width: 768px) {
+  .navbar-nav {
+    background-color: rgba(225, 225, 225, 0); }
+    .navbar-nav .nav-link {
+      color: white !important;
+      opacity: .75; }
+    .navbar-nav .active {
+      opacity: 1; }
+
   .background {
     position: fixed; }
 

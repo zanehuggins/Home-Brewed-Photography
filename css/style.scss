@@ -22,6 +22,25 @@ h1{
   margin-top: 25px;
 }
 
+nav{
+  margin-top: 25px!important;
+  margin-bottom: 25px;
+  button{
+    margin: 10px;
+  }
+}
+
+.navbar-nav{
+  background-color: white;
+  a{
+    color: grey!important;
+  }
+  .active{
+    color: black!important;
+    font-weight: bold;
+  }
+}
+
 .subnav{
   height: 100px;
   li{
@@ -178,6 +197,19 @@ form{
 }
 
 @media (min-width: 768px ){
+  .navbar-nav{
+background-color: rgba(225, 225, 225, 0);
+
+.nav-link{
+  color: white!important;
+  opacity: .75;
+}
+.active{
+  opacity: 1;
+}
+  }
+
+
   .background{
     position: fixed;
   }
