@@ -1,3 +1,5 @@
+$teal: #748680;
+
 .background{
 
   background-image: url("../images/background.png");
@@ -141,6 +143,31 @@ opacity: 1;
   position: absolute;
 }
 
+/* CONTACT ------------------------ */
+.contact{
+
+}
+
+form{
+  input{
+    border: 1px solid lightgrey;
+    border-radius: 0;
+    margin-top: 20px;
+  }
+  textarea{
+    border: 1px solid lightgrey;
+    border-radius: 0;
+    margin-top: 20px;
+  }
+  button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: $teal;
+    color: white;
+    height: 40px;
+  }
+}
 
 @media (min-width: 768px ){
   .background{
@@ -169,8 +196,8 @@ opacity: 1;
 
   .service-item{
     border: none;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
 
 }
